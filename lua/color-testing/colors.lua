@@ -75,7 +75,7 @@ M.default = {
 ---@return ColorScheme
 function M.setup(opts)
   opts = opts or {}
-  local config = require("solarized-osaka.config")
+  local config = require("color-testing.config")
 
   -- local style = config.is_day() and config.options.light_style or config.options.style
   local style = "default"
